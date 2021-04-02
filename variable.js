@@ -83,4 +83,11 @@ console.log(`value: ${nothing}, type: ${typeof nothing}`);
 let x;
 console.log(`value: ${x}, type: ${typeof x}`);
 
-// symbol
+// symbol, create unique identifiers for objects
+const symbol1 = Symbol('id');
+const symbol2 = Symbol('id');
+console.log(symbol1 === symbol2);
+const gSymbol1 = Symbol.for('id');
+const gSymbol2 = Symbol.for('id');
+console.log(gSymbol1 === gSymbol2);
+console.log(`value: ${symbol1.description}, type: ${typeof symbol1.description}`)
