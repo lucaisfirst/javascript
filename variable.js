@@ -65,3 +65,11 @@ const greeting = 'hello' + brendan;
 console.log(`value: ${greeting}, type: ${typeof greeting}`);
 const helloBob = `hi ${brendan}!`; //template literals (string) 백틱 기호를 이용하여 문자열 띄어쓰기 편하게
 console.log(`value: ${helloBob}, type: ${typeof helloBob}`);
+
+//boolean
+//false: 0, null, undefined, NaN, ''
+//true: any ather value
+const canRead = true;
+const test = 3 < 1; // false
+console.log(`value: ${canRead}, type: ${typeof canRead}`);
+console.log(`value: ${test}, type: ${typeof test}`);
