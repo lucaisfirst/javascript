@@ -91,3 +91,21 @@ const gSymbol1 = Symbol.for('id');
 const gSymbol2 = Symbol.for('id');
 console.log(gSymbol1 === gSymbol2);
 console.log(`value: ${symbol1.description}, type: ${typeof symbol1.description}`)
+
+//object, real-life object, data structure
+//고정변수 안의 오브젝트는 변형이 가능하다. 
+const luca = { name: 'luca', age: 21 };
+luca.age = 20;
+console.log(luca);
+
+//5. Dynamic typing: dynamically typed language
+//While coding with js, you can confuse type of variable. --> TS(typescript) is comming out!
+let text = 'hello';
+console.log(text.charAt(0));
+console.log(`value: ${text}, type: ${typeof text}`);
+text = 1;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = '7' + 5;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = '8' / '2';
+console.log(`value: ${text}, type: ${typeof text}`);
