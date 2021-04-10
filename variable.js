@@ -111,3 +111,4 @@ text = '8' / '2';
 console.log(`value: ${text}, type: ${typeof text}`);
 
 //this is my playground to code my dream... and today i messed my fcking math test......no desctiption that's too bad idk ..
+//hello world u are mazing
