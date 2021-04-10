@@ -97,9 +97,6 @@ console.log(`value: ${symbol1.description}, type: ${typeof symbol1.description}`
 const luca = { name: 'luca', age: 21 };
 luca.age = 20;
 console.log(luca);
-const hajin = { name: 'hajin', age: 23};
-hajin.age = 24
-console.log(hajin);
 
 //5. Dynamic typing: dynamically typed language
 //While coding with js, you can confuse type of variable. --> TS(typescript) is comming out!
