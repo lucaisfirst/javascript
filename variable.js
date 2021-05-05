@@ -4,7 +4,7 @@
 //in vanila js 'use strict' is moer helpful to parsing, 조금 더 상식적으로 사용 가능 
 'use strict';
 
-//2. Variable 
+//2. Variable, rw(read/write)
 //let (added in ES6)
 //글로벌한 변수들은 최소화
 //블록으로 가둘 수 있다. 
@@ -27,14 +27,20 @@ age = 5;
 console.log(age);
 var age
 
-//3. Constants
+//3. Constants, r(read only)
+//use const whenever possible
+//only use let if variable needs to change
+const daysInWeek = 7;
+const maxNumber = 5;
+console.log(daysInWeek);
+
+//Note!
+//Immutable data types: premitives types, frozen objects (i.e. object.freeze())
+//Mutable data types: all objects by default are mutable in JS
 //favor immutable data type always for a few reasons:
 // - security
 // - thread safety
 // - reduce human mistakes
-const daysInWeek = 7;
-const maxNumber = 5;
-console.log(daysInWeek);
 
 //4. Variable types 
 // primitive, single item: number, string, boolean, null, undefiedn, symbol
