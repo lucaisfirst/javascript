@@ -111,4 +111,4 @@ text = '8' / '2';
 console.log(`value: ${text}, type: ${typeof text}`);
 
 //this is my playground to code my dream... and today i messed my fcking math test......no desctiption that's too bad
-//cool mac first commit 왜 안뜨
+//cool mac first commit 왜 후 드디어 됐다 이메일 바꾸니까 됨.
