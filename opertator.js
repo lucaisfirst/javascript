@@ -28,4 +28,4 @@ console.log(`preDecrement: ${preDecrement}, counter: ${counter}`);
 const postDecrement = counter--;
 console.log(`postDecrement: ${postDecrement}, counter: ${counter}`);
 
-//4번째 강의 듣고 있는데 재미가 없다. 그냥 실제 만들어보면서 여기는 필요할 때마다 찾으러 와야겠다....
+//4번째 강의 듣고 있는데 재미가 없다. 그냥 실제 만들어보면서 여기는 필요할 때마다 찾으러 와야겠다..
